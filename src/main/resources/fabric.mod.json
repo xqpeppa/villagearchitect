@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "villagearchitect",
+  "version": "1.0.0",
+  "name": "Village Architect",
+  "description": "Bed-less adult villagers grow the village out of vanilla village houses: they find a flat open site, call a mason, and build. Two homes unlock a random profession house.",
+  "authors": [
+    "xqpeppa"
+  ],
+  "contact": {
+    "homepage": "https://github.com/xqpeppa/villagearchitect",
+    "sources": "https://github.com/xqpeppa/villagearchitect",
+    "issues": "https://github.com/xqpeppa/villagearchitect/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.xqpeppa.architect.ArchMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
